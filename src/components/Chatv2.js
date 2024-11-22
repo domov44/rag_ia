@@ -37,8 +37,7 @@ const Chatv2 = () => {
                             <Instructions/>
                         ` },
                     {
-                        role: 'user', content:
-                            prompt
+                        role: 'user', content: prompt
                     }],
                     temperature: temperature,
                 }),
