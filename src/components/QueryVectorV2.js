@@ -47,7 +47,7 @@ const QueryVectorV2 = () => {
 
             const pineconeRes = await index.query({
                 vector: embeddingVector,
-                topK: 3,
+                topK: 10,
                 includeMetadata: true,
             });
 
